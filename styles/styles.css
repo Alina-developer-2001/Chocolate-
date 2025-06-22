@@ -14,9 +14,32 @@ li {
   list-style-type: none;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+li,
+div,
+a {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1136px;
+}
+
 /* Header */
+.header {
+}
 
 /* Logo */
+
 .logo {
   font-weight: 700;
   font-size: 18px;
@@ -37,6 +60,7 @@ li {
 }
 
 /* Navigation menu */
+
 .navigation-list-item {
   color: #111111;
   font-weight: 500;
@@ -66,6 +90,15 @@ li {
   font-size: 28px;
   line-height: 1.21;
   letter-spacing: -0.03em;
+  max-width: 484px;
+  padding-top: 381px;
+  padding-left: 72px;
+  margin-bottom: 32px;
+}
+
+.button-buy-now,
+.button-how-its-made {
+  margin-bottom: 40px;
 }
 
 .button-buy-now {
@@ -77,6 +110,9 @@ li {
   width: 144px;
   height: 45px;
   cursor: pointer;
+  border: none;
+  margin-left: 72px;
+  margin-right: 14px;
 }
 
 .button-buy-now:hover,
@@ -103,7 +139,35 @@ li {
   cursor: pointer;
 }
 
+.scroll-link {
+  padding-top: 522px;
+  padding-left: 585px;
+}
+
+.scroll-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.03em;
+  color: #fff;
+}
+
+.scroll-image {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+}
+
 /* Advanteges section */
+.adv-image {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 22px;
+}
+
 .advanteges-section {
   background-color: #1e1823;
 }
@@ -112,6 +176,7 @@ li {
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  padding-bottom: 18px;
 }
 
 .text-advanteges-list {
@@ -122,6 +187,10 @@ li {
 }
 
 /* Ingredients section */
+.ingredients-section-title,
+.ingredients-section-subtitle {
+  margin: 0 auto;
+}
 
 .ingredients-section-title {
   font-weight: 600;
@@ -130,8 +199,23 @@ li {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 100px;
+  margin-bottom: 28px;
+  max-width: 412px;
+  align-content: center;
 }
 
+.ingredients-section-subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+  max-width: 486px;
+  text-align: center;
+  margin-bottom: 50px;
+}
 .ingredients-section-title span {
   color: #fd9222;
 }
